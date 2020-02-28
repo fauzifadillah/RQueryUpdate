@@ -278,9 +278,6 @@
                    for(var i=0;i<data.data.length;i++){
                     asd ='<div class="content"><div class="animated fadeIn"><div class="col-md-4"><div class="card border border-primary"><div class="card-header"><strong class="card-title mb-3" <small><span class="badge badge-success float-right mt-1">Success</span></small></strong></div><div class="card-body"><div class="mx-auto d-block"><img class="rounded-circle mx-auto d-block"  src=/images/avatar/'+data.data[i].image+' alt="Card image cap"><h5 class="text-sm-center mt-2 mb-1"> '+data.data[i].nama+'</h5><div class="location text-sm-center"><i class="ti-timer"></i> '+data.data[i].waktu+'</div></div><hr></div></div></div></div></div>';
 
-
-                     // dom=dom+'<li>'+data.data[i].nama+'</li>';
-                     console.log(asd);
                    // $('#coba').empty();
                    // $('#coba').append(asd).fadeIn(500);
                    $('#coba').load("{{route('load')}}").fadeIn(1000);
